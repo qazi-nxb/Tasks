@@ -1,0 +1,238 @@
+ /*--HEADER--*/
+
+.headdiv
+{
+	width: 100%;
+	height: 221px;
+	background-color: yellow;
+}
+#img
+{
+	float: left;
+	width: 300px;
+  height: 200px;
+}
+#main
+{
+	float: left;
+	width: 1000px;
+  height: 70px;
+  text-align: right;
+  font-size: 40px;
+  padding-top: 130px;
+
+}
+
+#button
+{
+	float: right;
+	width: 205px;
+  	height: 70px;
+	text-align: center;
+	padding-top: 130px;
+
+}
+#bttn
+{
+	background-color: #4CAF50;
+	font-size: 40px;
+	border: 3px solid;
+
+}
+
+#bttn:hover
+{
+	color: blue;
+	cursor: pointer;
+
+}
+
+/*--Navbar--*/
+.navbar
+{
+	width :100%;
+	height: 50px;
+	background-color: grey;
+}
+.navbar p
+{
+	padding-top:9px;
+	height: 25px;
+	margin-top: 0px;
+}
+
+
+.navbar a
+{
+	font-size: 30px;
+	height: 500px;
+	margin-left: 200px;
+	color: white;
+	background-color: grey;
+	border: 3px solid;
+	border-color: white;
+	text-align: center;
+}
+.navbar a:link
+{
+	text-decoration: none;
+}
+.navbar a.active
+{
+	color : black;
+	background-color: yellow;
+}
+.navbar a:hover
+{
+	background-color: yellow;
+	color: black;
+}
+/* --Veritacal nav-- */
+
+.formdiv
+{
+	text-align: center;
+	width: 100%;
+	height: 400px;
+	padding-top: 5%;
+
+}
+.formup
+{
+	padding-top: 2%;
+	padding-bottom: 2%;
+	border-radius: 5px;
+	background-color: lightgrey;
+	width: 40%;
+	margin-left: 30%;
+}
+.formdiv input
+{
+	margin: 10px;
+	padding: 10px;
+	width: 40%;
+}
+.formdiv label
+{
+	font-style: oblique;
+	font-weight: bold;
+	font-family: serif;
+	display: inline-block;
+}
+
+/*----FOOTER----*/
+
+.footer
+{
+	width: 100%;
+	position:fixed;
+	bottom: 0;
+	left: 0;
+	background-color: yellow;
+	height: 7%;
+}
+
+.footer p
+{
+		text-align: center;
+		height: 45%;
+		width: 23%;
+		margin-left: 35%;
+		padding-right: 15px;
+		font-size: 20px;
+		margin-bottom: 20px;
+		background-color: grey;
+
+}
+
+/*---VERTICAL MENU BAR-----*/
+.navbarV
+{
+
+	width: 25%;
+	height: 100%;
+	font-size: 30px;
+	margin-left: 180px;
+	color: white;
+	border-color: white;
+	text-align: center;
+	background-color: grey ;
+	 border-right: thick solid black;
+	 border-left: thick solid black;
+	 float: left;
+	 margin: 0px;
+	padding: 20px;
+
+
+}
+.navbarV a
+{
+	border-bottom : 3px solid;
+	border-color: black;
+	color: white;
+}
+.navbarV a:link
+{
+	text-decoration: none;
+}
+.navbarV li
+{
+	margin-left: -20px;
+	list-style-type: none;
+	text-align: left;
+	padding: 15px;
+
+}
+.navbarV a.active
+{
+	color : black;
+	background-color: yellow;
+
+}
+.navbarV a:hover
+{
+	background-color: yellow;
+	color: black;
+}
+/*---- HTML SEC IMAGE---*/
+#h4img
+{
+	width: 500px;
+}
+/*----CALCULATOR----*/
+
+.caldiv input
+{
+  background-color: lightgrey;
+  height: 40px;
+  width:400px;
+  margin: 10px;
+}
+.caldiv button
+{
+  height: 40px;
+  width:150px;
+  background-color: white;
+  border-color: black;
+  border-width: 3px;
+  font-family: Verdana;
+  font-size: 20px;
+}
+.caldiv select
+{
+   height: 40px;
+  width:150px;
+  border-width: 3px;
+  border-color: black;
+  background-color: white;
+  font-family: Verdana;
+  padding-left: 5px;
+}
+.slideimg
+{
+	width: 30vw;
+	height: 50vh;
+	border: 5px solid;
+	color: black;
+	margin-left: 250px;
+}

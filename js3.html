@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+
+<html lang="en" style="height:100%">
+
+<head>
+	<meta charset="UTF-8" style="height:100%">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body style="margin:0px ; height:100%">
+
+ <!--HEADER-->
+	<div class="headdiv">
+		<div>
+			 <a href="index.html"><img id="img" src="https://download.logo.wine/logo/Microsoft_Teams/Microsoft_Teams-Logo.wine.png"></a>
+		</div>
+		<div id="main">
+			Welcome, here it begins!
+		</div>
+		<div id="button">
+			<button id="bttn" onclick="location.href= 'Signin.html';" style="font-size: 30px" > Sign out </button>
+		</div>
+	</div>
+
+	<!--Navbar-->
+
+	<div style="	width :100%; height: 50px; border: thick solid black; ">
+		<nav class="navbar">
+		<p>
+			<a href="index.html" > HTML </a>
+			<a href="js2.html" class="active"> JavaScript </a>
+			<a href="jquery.html"> Jquery </a>
+			<a href="contact.html"> Contact </a>
+			</p>
+		</nav>
+	</div>
+
+	<!--Vertical bar-->
+
+
+
+	<!-- Vertical -->
+		<nav class="navbarV">
+		<ul style="padding-left: 50%; height:100%">
+			<li><a href="jsindex.html"> Calculator </a></li>
+      <li><a href="js2.html"> Hide/Show </a></li>
+			<li><a href="js3.html"   class="active"> Slide show </a></li>
+		</ul>
+		</nav>
+
+<!-- SLIDE SHOW -->
+	<div style="margin-left : 25% ; padding:5px 80px; height:100%;">
+    <h1>Slide show</h1>
+		<div>
+			<img src="" alt="" name="slide" class="slideimg" ;>
+		</div>
+	</div>
+
+
+
+	<!--footere-->
+		<div class="footer">
+			<p>
+				Feel Free to Contact us at 0900-78601 :D
+			</p>
+		</div>
+
+	<script>
+	var i=0;
+	function slide()
+	{
+		var img=[];
+		var time= 3000;
+
+		img[0]='img1.webp';
+		img[1]='img3.jpg';
+		img[2]='img4.jpg';
+		img[3]='img2.webp';
+		img[4]='img5.jpg';
+		if(i>img.length-1)
+				{i=0;}
+		else
+		{	document.slide.src= img[i];
+			i=i+1; }
+		setTimeout("slide()",time);
+	}
+		 window.onload= slide();
+		 </script>
+</body>
+</html>
